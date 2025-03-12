@@ -1,0 +1,34 @@
+site_name: messengerApp
+
+site_dir: site_build
+
+docs_dir: docs
+
+nav:
+
+  - index: index.md
+  - dev: dev.md 
+  - settings: settings.md
+  - blog: blog/models.md
+  - pip: pip.md
+
+theme:
+  name: material
+
+dev_addr:
+  127.0.0.1:8200
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - toc:
+      permalink: True
+
+plugins:
+  - search
+  - awesome-pages
+
+site_author:
+  Данила Голубев

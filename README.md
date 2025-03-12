@@ -14,3 +14,9 @@
 `pip install django-braces`
 4. Запуск шаблона проекта
 `django-admin startproject messengerApp`
+5. Подключение mkdocs
+`pip install mkdocs`
+6. Создание структуры докуменатации
+`pip install mkdocs-material`
+`pip install mkdocs-awesome-pages-plugin`
+запуск через 127.0.0.1:8200
