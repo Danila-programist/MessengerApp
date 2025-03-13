@@ -25,3 +25,12 @@
 9. Заполнение миграций
 `python manage.py collectstatic`
 и изменение gitignore 
+
+10. Создание суперпользователя
+`python manage.py createsuperuser`
+и миграции
+`python manage.py makemigrations`
+`python manage.py migrate`
+11. Запуск админки  127.0.0.1:8000/admin/
+12. Cоздание суперпользователя
+`python manage.py createsuperuser`
