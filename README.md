@@ -20,3 +20,5 @@
 `pip install mkdocs-material`
 `pip install mkdocs-awesome-pages-plugin`
 запуск через 127.0.0.1:8200
+7. Создание файла  bash для установки всех зависимостей
+8. Заполнение pip.md 

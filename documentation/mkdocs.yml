@@ -6,11 +6,11 @@ docs_dir: docs
 
 nav:
 
-  - index: index.md
-  - dev: dev.md 
-  - settings: settings.md
-  - blog: blog/models.md
-  - pip: pip.md
+  - Index: index.md
+  - Dev: dev.md 
+  - Settings: settings.md
+  - Blog: blog/models.md
+  - Pip: pip.md
 
 theme:
   name: material
