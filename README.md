@@ -25,7 +25,6 @@
 9. Заполнение миграций
 `python manage.py collectstatic`
 и изменение gitignore 
-
 10. Создание суперпользователя
 `python manage.py createsuperuser`
 и миграции
