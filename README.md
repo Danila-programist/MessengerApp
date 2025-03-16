@@ -33,3 +33,5 @@
 11. Запуск админки  127.0.0.1:8000/admin/
 12. Cоздание суперпользователя
 `python manage.py createsuperuser`
+13. Добавление installed_apps в settings нового параметра 'blog' 
+`python manage.py startapp blog`
