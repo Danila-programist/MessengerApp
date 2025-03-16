@@ -35,3 +35,5 @@
 `python manage.py createsuperuser`
 13. Добавление installed_apps в settings нового параметра 'blog' 
 `python manage.py startapp blog`
+14. Настройка секретных данных в переменные окружения в файл .env посредством изменение settings
+библиотека  dotenv
