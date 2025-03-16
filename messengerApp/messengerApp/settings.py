@@ -20,9 +20,7 @@ from django.contrib.messages import constants as messages
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 load_dotenv()
-
 
 
 # Quick-start development settings - unsuitable for production
@@ -30,9 +28,8 @@ load_dotenv()
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = 'django-insecure-rj^!^a9%e+^==x*yl3nvn$23)gj-0t*j-*2vsxx)9&)8znd=zm'
-
 SECRET_KEY = os.getenv('SECRET_KEY')
-print("SECRET_KEY:", os.getenv('SECRET_KEY'))
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -49,10 +46,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
+    'ckeditor',
     'blog.apps.BlogConfig',
     'django_cleanup.apps.CleanupConfig',
-    
-    
 ]
 
 MIDDLEWARE = [
@@ -158,3 +154,10 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_TEMPLATE_PACK = 'uni_form'
+
+CKEDITORS = {
+    'default': {
+        'width': 'auto',
+    }
+}
+ 

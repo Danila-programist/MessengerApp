@@ -37,3 +37,5 @@
 `python manage.py startapp blog`
 14. Настройка секретных данных в переменные окружения в файл .env посредством изменение settings
 библиотека  dotenv
+15.  Добавление ckeditor в проект и изменение settings
+`python manage.py collectstatic`
